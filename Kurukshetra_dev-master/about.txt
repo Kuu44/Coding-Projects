@@ -1,0 +1,6 @@
+Kurukshetra is a 2D shooter game that can be played between two players connected to the same network.
+This game is developed as a part of the academic project for Object Oriented Programming.
+Developers:
+1. Rabin Adhikari (074BCT529)
+2. Safal Thapaliya (074BCT531)
+3. Samip Poudel (074BCT533)

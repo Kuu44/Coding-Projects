@@ -1,0 +1,12 @@
+Foo2y - A football simulation
+
+This Project was created using Visual Studio 2019.
+
+U can use the .exe file in "Working Game" folder to run it , or to run the source code:
+
+-> Build Procedure:
+
+1.  Open the solution T.sln in Visual Studio.
+2. Link the required "SFML 2.5" library
+3. Build the project in x86 (Win32) Platform.
+4. Execute

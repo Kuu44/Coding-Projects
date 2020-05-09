@@ -1,0 +1,21 @@
+The sky runner!
+
+Outrun the incoming doom of red as the platforms disappear behind you!
+
+
+
+-----------------------------
+Controls:
+W or UP arrow - Move Forward
+S or DOWN arrow - Move Backwards
+A and D or RIGHT and LEFT arrows - Turn right or left
+Left mouse button + drag - look around (CAN'T BE USED TO TURN THE CHARACTER ITSELF)
+
+SPACE or RIGHT mouse button - JUMP
+
+SHIFT or '0' or 'f' - HIGH SPEED MODE! (MOVING AND JUMPING ENHANCED WHILE THIS IS PRESSED)
+
+M - TOGGLE EASY/HARD MODE
+
+R - RESTART AFTER GAME OVER
+-------------------------------

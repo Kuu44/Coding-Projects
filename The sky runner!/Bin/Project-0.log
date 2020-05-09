@@ -1,0 +1,78 @@
+﻿  game.c
+D:\Programs\GL\Project-0\game.c(78,39): warning C4244:  'return': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(106,16): warning C4305:  'initializing': truncation from 'double' to 'float'
+D:\Programs\GL\Project-0\game.c(110,16): warning C4305:  'initializing': truncation from 'double' to 'float'
+D:\Programs\GL\Project-0\game.c(184,22): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(187,22): warning C4305:  'initializing': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(243,55): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(245,19): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(247,18): warning C4305:  '=': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(248,60): warning C4244:  '=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(258,73): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\Programs\GL\Project-0\game.c(279,25): warning C4244:  'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(288,29): warning C4244:  'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(288,80): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(288,88): warning C4244:  'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(291,29): warning C4244:  'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(291,82): warning C4244:  'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(307,85): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(308,85): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(309,94): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(311,17): warning C4013:  'maxof' undefined; assuming extern returning int
+D:\Programs\GL\Project-0\game.c(445,38): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(446,39): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(450,38): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(451,39): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(480,27): warning C4305:  '=': truncation from 'double' to 'float'
+D:\Programs\GL\Project-0\game.c(523,22): warning C4013:  'time' undefined; assuming extern returning int
+D:\Programs\GL\Project-0\game.c(534,2): warning C4550:  expression evaluates to a function which is missing an argument list
+D:\Programs\GL\Project-0\game.c(549,22): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(550,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(550,18): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(550,22): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(559,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(559,24): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(572,22): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(576,23): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(577,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(577,19): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(577,24): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(585,25): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(586,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(586,24): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(609,33): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(612,39): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(618,18): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(626,34): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(629,39): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(635,19): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(643,34): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(644,49): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(648,26): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(651,24): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(652,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(652,22): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(660,33): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(661,50): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(665,27): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(668,25): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(669,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(669,24): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(677,49): warning C4244:  'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Programs\GL\Project-0\game.c(681,23): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(682,14): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(682,19): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(682,24): warning C4305:  'function': truncation from 'double' to 'GLfloat'
+D:\Programs\GL\Project-0\game.c(597,1): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(695,1): warning C4244:  'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(769,11): warning C4013:  'sprintf_s' undefined; assuming extern returning int
+D:\Programs\GL\Project-0\game.c(842,46): warning C4244:  '=': conversion from 'float' to 'int', possible loss of data
+D:\Programs\GL\Project-0\game.c(1129,12): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1130,12): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1159,39): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1160,40): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1161,39): warning C4244:  '=': conversion from 'double' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1167,13): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1168,13): warning C4244:  '=': conversion from 'int' to 'float', possible loss of data
+D:\Programs\GL\Project-0\game.c(1168,13): warning C4244: D:\Programs\GL\Project-0\game.c(374) : warning C4715: 'maxof': not all control paths return a value
+  Project-0.vcxproj -> D:\Programs\GL\Project-0\Debug\Project-0.exe

@@ -1,0 +1,487 @@
+﻿  ball.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(12,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(14,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(17,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(7,6): warning C4305: 'initializing': truncation from 'double' to 'const float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(5,88): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(16,28): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(17,79): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(17,48): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(18,21): warning C4305: '=': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\ball.cpp(90,31): warning C4305: 'argument': truncation from 'double' to 'float'
+  field.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\field.cpp(9,39): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\field.cpp(9,31): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  game.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(12,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(14,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(17,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(20,43): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(66,32): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,119): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,143): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,166): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,1): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,117): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,140): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,165): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,1): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,118): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,141): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,166): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\game.cpp(12,32): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\game.cpp(17,50): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\game.cpp(54,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  main.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(12,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(14,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(17,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(20,43): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(66,32): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,119): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,143): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,166): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,1): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,117): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,140): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,165): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,1): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,118): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,141): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,166): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(18,35): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(20,36): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(22,43): warning C4244: 'argument': conversion from 'float' to 'T', possible loss of data
+          with
+          [
+              T=int
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(57,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(58,62): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(65,67): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(66,69): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(70,36): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(72,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(73,122): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(73,133): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(77,36): warning C4244: 'argument': conversion from 'double' to 'unsigned int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(79,70): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(80,128): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(80,139): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(86,108): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(87,38): warning C4244: 'argument': conversion from 'T' to 'float', possible loss of data
+          with
+          [
+              T=unsigned int
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(94,112): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\main.cpp(104,39): warning C4305: 'argument': truncation from 'double' to 'float'
+  Menu.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(53,57): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(54,51): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(56,57): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(57,51): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(59,57): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(60,52): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(62,57): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\Menu.cpp(63,52): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+  player.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(12,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(14,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(17,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.cpp(3,110): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.cpp(15,73): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.cpp(15,45): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+  recycleBin.cpp
+  team.cpp
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(12,33): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(14,29): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\player.h(17,26): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(20,43): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(66,32): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,119): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,143): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(68,166): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,1): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,117): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,140): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(70,165): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,25): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,1): warning C4305: 'argument': truncation from 'double' to 'T'
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,47): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,71): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,94): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,118): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,141): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.h(72,166): warning C4244: 'argument': conversion from 'double' to 'T', possible loss of data
+          with
+          [
+              T=float
+          ]
+D:\Docs\Coding_Projects\Foo2y\Foo2yy\team.cpp(117,42): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  Foo2yy.vcxproj -> D:\Docs\Coding_Projects\Foo2y\Foo2yy\Debug\Foo2yy.exe

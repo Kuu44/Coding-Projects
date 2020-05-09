@@ -1,0 +1,16 @@
+*{
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1{
+  color: SeaGreen;
+}
+
+p, li{
+  font-size: 19;
+  color: rgba(200,155,0,0.5);
+}
+
+a {
+  text-decoration:none;
+}

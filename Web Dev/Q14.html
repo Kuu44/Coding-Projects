@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>DOOOOM I SAY</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  /* Style the header */
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  /* Create three unequal columns that floats next to each other */
+  .column {
+    float: left;
+    padding: 10px;
+    height: 700px;
+  }
+
+  /* Left and right column */
+  .column.side {
+    width: 25%;
+  }
+
+  /* Middle column */
+  .column.middle {
+    width: 50%;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  /* Style the footer */
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="header" style="background-color:#99ff66;">
+  <h2>This is ROB and JACKAL'S website of DOOOM!</h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#ff9933;">Dunno what <br> to put here</div>
+  <div class="column middle" style="background-color:#ffff66;">
+    <p id="godspan">Login to the realm of DOOOOM</p>
+
+    Username:<br>
+    <input type="text" name="firstname" value="Whattye call ye">
+    <br><br><br>
+    Password:<br>
+    <input type="password" name="lastname">
+<br>
+  <button type="button" onclick='document.getElementById("godspan").innerHTML = "YOUR DOOM HAS BEEN DECIDED: DEATH BY CHEETOHS"'>Submit</button>
+  <script>
+  var input1 = window.prompt("Enter your grade ", 0);
+
+  var score = parseFloat(input1);
+
+  var grade = getGrade(score);
+
+   document.writeln("<h1> Your Grade is: " + grade + "</h1>");
+
+  function getGrade (x)
+  {
+  if (x>90) return ("A");
+  else if (x>70) return ("B");
+  else if (x>50) return ("C");
+  else if (x>40) return ("D");
+  else return ("E");
+  }
+  </script>
+  </div>
+  <div class="column side" style="background-color:#ffdd33;">Column</div>
+</div>
+
+<div class="footer" style="background-color:#000000;">
+  <p><span style="color:black">THIS IS BLACK FOR NO REASON</span></p>
+</div>
+
+</body>
+</html>

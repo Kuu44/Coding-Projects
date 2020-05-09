@@ -1,0 +1,67 @@
+#pragma once
+#include<cmath>
+
+class vector
+{
+private:
+	float x, y, direction, magnitude;
+public:
+	vector() :x(0), y(0), magnitude(0){}
+	vector(float x_, float y_) :x(x_), y(y_) 
+	{ 
+		direction = Direction(); 
+		magnitude = Magnitude(); 
+	}
+
+	float Magnitude()
+	{
+		return pow(x*x + y * y, 0.5);
+	}
+	float Direction()
+	{
+		return atan2(y, x);
+	}
+	vector operator+(vector a)
+	{
+		return vector(x + a.x, y + a.y);
+	}
+	vector operator-()
+	{
+		return vector(-x, -y);
+	}
+	float operator*(vector a)
+	{
+		return (x * a.x + y * a.y);
+	}
+	bool operator==(vector a)
+	{
+		return ((x==a.x)&&(y==a.y));
+	}
+	bool operator>(vector a)
+	{
+		return (magnitude>a.magnitude);
+	}
+	bool operator<(vector a)
+	{
+		return (magnitude<a.magnitude);
+	}
+};
+
+class Physics
+{
+private:
+	vector position, velocity,acceleration;
+public:
+	Physics(){}
+	~Physics(){}
+
+	void setAcceleration(float x, float y)
+	{
+		acceleration.x = x; acceleration.y = y;
+	}
+	void Update() 
+	{
+		velocity.x=
+	}
+};
+

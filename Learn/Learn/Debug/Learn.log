@@ -1,0 +1,3 @@
+﻿  Operators.cpp
+D:\Docs\Coding_Projects\Learn\Learn\Operators.cpp(46,28): warning C4305: 'argument': truncation from 'double' to 'const float'
+  Learn.vcxproj -> D:\Docs\Coding_Projects\Learn\Learn\Debug\Learn.exe

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Ques. No.3</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  * {
+    box-sizing: border-box;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .column {
+    float: left;
+    padding: 10px;
+    height: 700px;
+  }
+
+  .column.side {
+    width: 25%;
+  }
+
+  .column.middle {
+    width: 50%;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .footer {
+    background-color: #f1f1f1;
+    padding: 10px;
+    text-align: center;
+  }
+
+  @media (max-width: 600px) {
+    .column.side, .column.middle {
+      width: 100%;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="header" style="background-color:#99ff66;">
+  <h2>This is PhayerBreathinRubberDuckie's script. GGMU!</h2>
+</div>
+
+<div class="row">
+  <div class="column side" style="background-color:#ff9933;">City are <br> pure shite</div>
+  <div class="column middle" style="background-color:#ffff66;">
+    <p id="godspan">Hi! How u feelin? Edit this with notepad for code. Start at line 66</p>
+    <script>
+    var input1 = window.prompt("Enter your grade ", 0);
+
+    var score = parseFloat(input1);
+
+    var grade = getGrade(score);
+
+     document.writeln("<h1> Your Grade is: " + grade + "</h1>");
+
+    function getGrade (x)
+    {
+    if (x>90) return ("A");
+    else if (x>70) return ("B");
+    else if (x>50) return ("C");
+    else if (x>40) return ("D");
+    else return ("E");
+    }
+    </script>
+
+  </div>
+  <div class="column side" style="background-color:#ffdd33;">Man United da best club in World</div>
+</div>
+
+<div class="footer" style="background-color:#000000;">
+  <p><span style="color:white">THIS IS BLACK FOR NO REASON</span></p>
+</div>
+
+</body>
+</html>
