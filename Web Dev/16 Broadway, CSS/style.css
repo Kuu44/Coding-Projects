@@ -150,10 +150,8 @@ footer p {
     width: 100%;
   }
 }
-
-.left{
-  float: left;
-}
-.right{
-  float: right;
+section div {
+width: 150%;
+display: flex;
+justify-content: space-between;
 }

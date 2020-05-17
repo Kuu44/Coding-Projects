@@ -1,0 +1,165 @@
+html, a {
+  font-family: Helvetica, serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+body{
+  width: 100%;
+}
+h2, h4 {
+  width:100%;
+  text-align: center;
+  background-color: black;
+  opacity: 0.9;
+  padding: 0.5em;
+  margin: 0;
+}
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+    top: 0%;
+  z-index: 10;
+  background-color: rgba(0,0,0,0.9);
+}
+  .teaCozy {
+    height: 50px;
+    width: auto;
+    padding: 10px 0;
+    margin: auto 10px;
+    float: left;
+    display: inline-block;
+  }
+  .nav {
+    display: inline-block;
+    float: right;
+  }
+    .nav li{
+      margin:auto 20px;
+      color: seashell;
+      text-decoration: underline;
+      display: inline;
+    }
+main {
+  position: relative;
+    top: 70px;
+}
+  main .top {
+    display: flex;
+      justify-content: center;
+    width: 100%;
+    height: 700px;
+  }
+    .mission {
+      width: 1200px;
+      display: flex;
+        align-items: center;
+        flex-flow: column;
+        justify-content: center;
+      background-image: url(../images/img-mission-background.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+  main .middle {
+    width: 100%;
+    display: flex;
+      justify-content: center;
+    margin: 2rem 0;
+  }
+    .middleArrange{
+      width: 1000px;
+      display: flex;
+        flex-flow: nowrap column;
+        justify-content: flex-start;
+    }
+      .tearoom{
+        height: 480px;
+        display: flex;
+          align-items:center;
+          flex-wrap: wrap;
+          justify-content:space-around;
+          align-content: space-between;
+      }
+        .setpiece {
+          box-sizing: border-box;
+          height: 200px;
+          width: 300px;
+          margin: 0.5rem;
+        }
+          .setpiece img {
+            width: 100%;
+            height: auto;
+            overflow: hidden;
+          }
+          .setpiece h5{
+            font-size: 0.9rem;
+            font-weight: normal;
+            width: 100%;
+            height: auto;
+            margin: 0;
+            padding: 10px 0;
+            text-align: center;
+          }
+  main .bottom {
+    box-sizing: border-box;
+    height: 500px;
+    width: 100%;
+    display: flex;
+      justify-content: center;
+      align-content:center;
+  }
+    .bottomArrange {
+      width: 1200px;
+      background-image: url(../images/img-locations-background.jpg);
+      background: cover center;
+      display: flex;
+        flex-flow: nowrap column;
+        justify-content: center;
+    }
+      .bottomArrange h2 {
+      background-color: rgba(255,255,255,0);
+    }
+      .locations {
+        width: 100%;
+        display: inline-flex;
+          justify-content: center;
+          align-content: center;
+      }
+        .card {
+          width: 300px;
+          height: 300px;
+          background-color: rgba(0,0,0,1);
+          margin: 15px 40px;
+          display: flex;
+            flex-flow: nowrap column;
+            justify-content: space-around;
+        }
+footer {
+  margin: 0;
+  margin-top: 200px;
+  width: 100%;
+}
+footer .top {
+  height: 200px;
+  width: 100%;
+  display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
+    background-color: rgba(0,0,0,1);
+
+  margin-bottom: 50px;
+}
+footer .bottom {
+    position: fixed;
+      bottom: 0;
+    width: 100%;
+    background-color: rgba(0,0,0,1);
+    text-align: left;
+}
+h6 {
+  margin: 20px;
+}
