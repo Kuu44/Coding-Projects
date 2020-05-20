@@ -1,0 +1,182 @@
+import java.util.Scanner;
+
+public class ConnectFour
+{
+	
+	public static void main (String[] args)
+	{	
+		boolean playAgain=true;
+		
+		while(playAgain) 
+		{
+			Scanner input;
+			char[][] board = new char[6][7];
+			int noOfDisk = 0;
+			char color=' ';
+		    int disk;
+		    fillBoard(board);
+		    
+			while (isWinner(board) == false && noOfDisk != 6 * 7) 
+			{
+				input = new Scanner(System.in);
+			    
+				printBoard(board);
+				
+				if ( noOfDisk % 2 == 0)
+				{
+					color = "Y";
+					//disk = 1;
+				}
+				else 
+				{
+					color = "R";
+					//disk = 2;
+				}
+				noOfDisk++;
+				
+				System.out.print("");
+				
+				int column = input.nextInt();
+			   	
+				dropDisk(board,column,color);		
+			}
+			
+		    if(isWinner(board)) 
+		    {
+		     System.out.println("The " + s + " player won");	      
+		    }
+		    else 
+		    {
+		     System.out.println("It is a draw.");
+		    }
+		    System.out.println( "DO YOU WANT TO PLAY A NEW GAME? (type 1 for yes)");
+		    Scanner decision = new Scanner(System.in);
+		    if(decision.nextInt()==1) 
+		    {
+		    	playAgain=true;
+		    }
+		    else if(decision.nextInt()==0) 
+		    {
+		    	playAgain=false;
+		    }
+		}
+    }
+	
+	
+	public static char[][] fillBoard(char[][] board)
+	{
+		for (int i = 0; i < board.length; i++ )
+		{
+			for (i=0;i<6;i++) 
+			{
+				for(int j=0;j<7;j++) 
+				{
+					board[i][j] = ' ';
+				}
+			}
+		}
+	return board;
+	}
+	//board = fillBoard(board);
+	
+	// displayBoard(char[][] board) 
+	private static void printBoard(char[][] board)
+	{
+		for(int i = board.length - 1; i >= 0; i--)
+		{
+			System.out.print("| ");
+			for(int j = 0; j <board[i].length; j++)
+			{
+				System.out.print(board[i][j] + " | ");
+			}
+			System.out.println();//new line
+		}
+	}
+	 
+	public static void dropDisk(char[][] board, int column, char color)
+	{ 
+		// return dropyellow and red
+		for (int i = board.length-1; i>=0; i--)
+		{
+			int j = 0;
+			if (board [i][j]== ' ')
+			{
+				board[i][j] = color;
+				return true;
+			}
+		}
+	}
+	public static boolean columnIsFull(char[][] board,int col) 
+	{
+		for(int i=6; i>=0; i--) 
+		{
+			if(board[i][col]==' ')
+			{
+				return false;
+			}
+		}
+		return true;
+	}
+	public static boolean isWinner(char[][] board)
+	{	
+	// checking for horizontal win
+		for (int i=0; i<board.length; i++)
+		{
+			for(int j=0; j<board[i].length -3; j++)
+			{
+				if(board[i][j] !=' '
+				&& board[i][j] == board[i][j+1]
+				&& board[i][j] == board[i][j+2]
+				&& board[i][j] == board[i][j+3])
+				{
+				return true;					
+				}					
+			}								
+		}
+	//	checking for vertical win
+		for (int j=0; j<board[0].length; j++)
+		{
+			for (int i=0; i<board[0].length-3; i++)
+			{
+				if(board[i][j] !=' '
+				    && board[i][j] == board[i+1][j]
+				    && board[i][j] == board[i+2][j]
+				    && board[i][j] == board[i+3][j])
+				{
+					return true;
+				}
+			}
+		}
+	// checking for diagonal win, from top left to bottom right
+		for (int i=0; i<board.length-3; i++)
+		{
+			for (int j=0; j<board[i].length - 3; j++)
+			{
+				if(board[i][j] != ' '
+					&& board[i][j] == board[i+1][j+1]
+                    && board[i][j] == board[i+2][j+1]
+                    && board[i][j] == board[i+3][j+3] )
+				{
+					return true;
+				}
+			}
+		}
+		
+	// checking for diagonal win, from top right to bottom left
+		for(int i=0; i<board.length-3; i++)
+		{
+			for(int j=3; j<board[i].length; j++)
+			{
+				if(board[i][j] != ' '
+					&& board[i][j] == board[i+1][j-1]
+					&& board[i][j] == board [i+2][j-2]
+					&& board[i][j] == board[i+3][j-3])
+				{
+				return true;
+				}
+			}
+		}
+		boolean result=false;
+		return result;
+	}
+}

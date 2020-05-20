@@ -1,0 +1,359 @@
+1.
+#include <iostream>
+
+#define SUCCESS 0
+using namespace std;
+
+class Distance{
+private:
+  int meter;
+  int centimeter;
+public:
+  Distance(int m,int cm):meter(m),centimeter(cm){};
+  Distance(float no)
+  {
+    meter=no;
+    centimeter=(no-int(no))*100;
+  }
+  operator float()
+  {
+    return float(meter) + float(centimeter)/100.0;
+  }
+  Distance operator+(Distance a)
+  {
+    return Distance(meter+a.meter+(centimeter+a.centimeter)/100,(centimeter+a.centimeter)%100);
+  }
+  void display()
+  {
+    cout << meter << " m " << centimeter << "cm" << endl;
+  }
+};
+int main()
+{
+  Distance d(10.34);
+  d.display();
+  cout << "Distance typecasting to float ";
+  cout << d << endl;
+  Distance c(10,6);
+  Distance s = d+c;
+  cout << "addition of two distances" << endl;
+  d.display();
+  c.display();
+  cout << "Gives";
+  s.display();
+  return SUCCESS;
+}
+
+2.
+#include <iostream>
+
+#define SUCCESS 0
+#define METER_TO_FEET 3.280
+using namespace std;
+
+class Feet
+{
+private:
+  int feet;
+  int inches;
+public:
+  Feet(int f,int i):feet(f),inches(i){};
+  Feet(float no)
+  {
+    feet=int(no);
+    inches = int((no-int(no))*12);
+  }
+  float tofloat()
+  {
+    return float(feet+float(inches)/12);
+  }
+  void display()
+  {
+    cout <<feet<<"f"<< inches<<"in"<<endl;
+  }
+
+};
+
+class Metric{
+private:
+  int meter;
+  int centimeter;
+public:
+  Metric(int m,int cm):meter(m),centimeter(cm){};
+  Metric(float no)
+  {
+    meter=int (no);
+    centimeter=int((no-int(no))*100);
+  }
+  Metric(Feet f)
+  {
+    Metric(f.tofloat()*0.3048);
+  }
+  void display()
+  {
+    cout <<meter<<"m"<< centimeter<<"cm"<<endl;
+  }
+  float tofloat()
+  {
+    return float(meter+float(centimeter)/100.0);
+  }
+  operator Feet()
+  {
+    return Feet(tofloat()/0.3048);
+  }
+};
+
+
+
+int main()
+{
+  cout << "Distance in Metric" << endl;
+  Metric d(10.34);
+  d.display();
+  cout << "Converting into Feet" << endl;
+  Feet(d).display();
+  cout << "Distance in Feet" << endl;
+  Feet f(20.34);
+  f.display();
+  cout << "Converting into Metric" << endl;
+  Metric(f).display();
+  return 0;
+}
+
+
+3.
+#include <iostream>
+#include <cstring>
+#define SUCCESS 0
+
+class Musicians
+{
+ protected:
+  std::string str[5];
+  std::string wnd[5];
+  std::string per[5];
+ public:
+  void string()
+  {
+    str[0] ="vern";
+    str[1]="guitar";
+    str[2]="sitar";
+    str[3]="sarod";
+    str[4]="mandolin";
+    std::cout<< "string instrument has been initialized to" << std::endl;
+    for(int i = 0 ; i < 5; i++)
+    {
+      std::cout << str[i] << std::endl;
+    }
+  }
+  void wind(){
+
+    wnd[0]="flute";
+    wnd[1]="mridangam";
+    wnd[2]="bangos";
+    wnd[3]="drums";
+    wnd[4]="tambour";
+    std::cout<< "wind instrument has been initialized to" << std::endl;
+    for(int i = 0 ; i < 5; i++)
+    {
+      std::cout << wnd[i] << std::endl;
+    }
+  }
+  void perc()
+  {
+    per[0]="tabla";
+    per[1]="mridangam";
+    per[2]="bangos";
+    per[3]="drums";
+    per[4]="tambour";
+    std::cout<< "percussion instrument has been initialized to" << std::endl;
+    for(int i = 0 ; i < 5; i++)
+    {
+      std::cout << per[i] << std::endl;
+    }
+  }
+};
+class TypeIns:public Musicians
+{
+ public:
+  std::string* get()
+  {
+    std::cout<<"Type of instrument to be displayed" << std::endl;
+    std::cout << "a. String instruments" << std::endl;
+    std::cout << "b. Wind instruments" << std::endl;
+    std::cout << "c. Percussion instruments" << std::endl;
+    char choice;
+    std::cin >> choice;
+    show(choice);
+  }
+  void show(char choice)
+  {
+    if(choice == 'a')
+    {
+      for(int i = 0 ; i < 5; i++)
+      {
+        std::cout << str[i] << std::endl;
+      }
+    }
+    else if(choice == 'b')
+    {
+      for(int i = 0 ; i < 5; i++)
+      {
+        std::cout << wnd[i] << std::endl;
+      }
+    }
+    else
+    {
+      for(int i = 0 ; i < 5; i++)
+      {
+        std::cout << per[i] << std::endl;
+      }
+    }
+  }
+};
+int main()
+{
+  TypeIns t;
+  t.string();
+  t.perc();
+  t.wind();
+  t.get();
+  return SUCCESS;
+}
+
+4.
+#include <iostream>
+#include <cstring>
+#define SUCCESS 0
+using namespace std;
+class Person
+{
+ private:
+  string name;
+  int age;
+ public:
+  void setName(string n)
+  {
+    name = n;
+  }
+  void setAge(int a)
+  {
+    age = a;
+  }
+  string getName()
+  {
+    return name;
+  }
+};
+class Student: public Person
+{
+ private:
+  int rank;
+  int cls;
+ public:
+ int getRank()
+  {
+    return rank;
+  }
+  int getClass()
+  {
+    return cls;
+  }
+  void setRank(int r)
+  {
+    rank = r;
+  }
+  void setClass(int c)
+  {
+    cls = c;
+  }
+};
+class Employee: public Person
+{
+ private:
+  string dep;
+  int salary;
+ public:
+  void setDep(string d)
+  {
+    dep = d;
+  }
+  void setSalary(int s)
+  {
+    salary = s;
+  }
+  string getDep()
+  {
+    return dep;
+  }
+  int getSalary()
+  {
+    return salary;
+  }
+};
+int main()
+{
+  Person p1, p2;
+  Employee e1, e2;
+  Student s1, s2;
+  std::cout << &p1 << &p2 << std::endl;
+  cout << sizeof(p1) << endl;
+  cout << &p2 - &p1 << endl;
+  std::cout << &e1 << &e2 << std::endl;
+  cout<< sizeof(e1) << endl;
+  cout << &e2 - &e1 << endl;
+  std::cout << &s1 << &s2 << std::endl;
+  cout<< sizeof(s1) << endl;
+  cout << &s2 - &s1 << endl;
+  return SUCCESS;
+}
+
+5.
+#include <iostream>
+
+
+using namespace std;
+
+class Complex
+{
+ public:
+  int real, img;
+  Complex()
+  {
+    cout << "Enter real and imaginary parts:";
+    cin >> real>> img;
+  }
+  void display ()
+  {
+    cout <<"("<<real<<"+"<<img<<"i"<<")";
+  }
+};
+
+class ComplexMath:public Complex
+{
+ private:
+ public:
+  ComplexMath(){
+  }
+
+  ComplexMath& operator+(const Complex a)
+  {
+    real += a.real;
+    img += a.img;
+    return *this;
+  }
+};
+
+int main()
+{
+  Complex a;
+  ComplexMath c;
+  a.display();
+  std::cout << "+";
+  c.display();
+  cout << "=";
+  (c+a).display();
+  return 0;
+}
+
+

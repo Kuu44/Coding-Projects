@@ -1,0 +1,218 @@
+Ans1:
+#include<iostream>
+using namespace std;
+class time{
+    public:
+        static int n;
+        time():id(++n){
+            Hr=Min=Sec=0;
+            cout<<"\nCreated <"<<id;cout<<"> ";display();cout<<"\n";
+        }
+        time(int h, int m,int s):id(++n){
+            Hr=h;Min=m;Sec=s;
+            cout<<"\nCreated <"<<id;cout<<"> ";display();cout<<"\n";
+        }
+        ~time(){
+            //n++;
+            cout<<"\ndestroyed <"<<id;cout<<"> ";display();cout<<"\n";
+        };
+        void display(){
+            cout<<"Display says: ";
+           cout<<Hr<<" : "<<Min<<" : "<<Sec;
+        }
+        void setH(int z){Hr=z;}
+        time add(time a){
+            time b=time(Hr+a.Hr,Min+a.Min,Sec+a.Sec);
+            cout<<"in add";
+            a.setH(77);
+            return b;
+        }
+    private:
+        int Hr;
+        int Min;
+        int Sec;
+        const int id;
+};
+int time::n=0;
+int main(){
+    time A(2,1,0);
+    time B(0,1,2);
+    time C=B.add(A);cout<<"jhjh"<<endl;
+    //C.setH(7);
+    C.display();
+    //B.~time();
+
+}
+
+Ans2:
+#include<iostream>
+using namespace std;
+class sent
+{
+public:
+    sent(char* b, int a):sz(a),store(new char[a]) //here char[sz] will give an error because maybe initialization is started from the right i.e. new char[sz] is executed before sz(a)
+    {
+        //store=new char[sz];
+        for(int i=0;i!=a;i++)
+            store[i]=b[i];
+    }
+    sent join(sent b){
+        int x=sz+b.sz;
+        char *p=new char[x];
+        for(int i=0;i!=sz;i++)
+            p[i]=store[i];
+        for(int i=sz;i!=x;i++)
+            p[i]=b.store[i-sz];
+        return sent(p,x);
+    }
+    ~sent()
+    {
+        delete[] store;
+    }
+    void print(){
+        for(int i=0;i!=sz;i++)
+            cout<<store[i];
+    }
+private:
+    char* store;
+    int sz;
+};
+int main(){
+    sent pre("Engineers are ",14);
+    sent post("Creatures of logic.",19);
+    cout<<endl;
+    (pre.join(post)).print();
+    return 0;
+}
+
+Ans3:
+#include<iostream>
+using namespace std;
+class dep{
+    public:
+        dep(char *i, char* n,int ns){
+            cout<<"\nConstructor says hell0\n"<<endl;
+            for(int j=0;j<3;j++)
+                id[j]=i[j];
+            id[3]='\0';
+            int k=(ns<=15)?ns:15;
+            for(int j=0;j!=k;j++)
+                name[j]=n[j];
+            name[k]='\0';
+        }
+        ~dep(){
+            cout<<"\nObject ->(";print();cout<<") has gone out of scope."<<endl;
+        }
+        void print(){
+            cout<<"Department's name:"<<name;
+            cout<<" | Id:"<<id;
+        }
+    private:
+        char id[4];
+        char name[15];
+};
+int main(){
+    dep phy("001","Physics",7);
+    phy.print();cout<<endl;
+}
+
+Ans4:
+#include<iostream>
+using namespace std;
+class gadi{
+public:
+    gadi(char* n,int ns,float rt): rate(rt)
+    {
+        int k=(ns<=15)?ns:15;
+        for(int j=0;j!=k;j++)
+            name[j]=n[j];
+        name[k]='\0';
+    }
+    gadi(const gadi& a)
+    {
+        for(int i=0;i!=15;i++)
+            name[i]=a.name[i];
+            rate=a.rate;
+    }
+    void bill(float hr)
+    {
+        cout<<"name:"<<name<<" | Rate: Rs"<<rate<<"/hr | Hours: "<<hr<<"hrs | Total fee to be paid: Rs"<<rate*hr;
+    }
+private:
+    char name[15];
+    float rate;
+};
+int main(){
+    gadi bike1("Yatri",5,2.5);
+    bike1.bill(1.5);cout<<endl;
+    gadi bike2(bike1);
+    bike2.bill(2.5);
+return 0;
+}
+
+Ans5:
+#include<iostream>
+using namespace std;
+class animal{
+    char species[15];
+    char name[15];
+    char feet;
+    char hands;
+public:
+    animal(char* s,char f, char h){
+        for(int i=0;i!=15;i++)
+            species[i]=s[i];
+        feet=f;
+        hands=h;
+    }
+    void setName(char* n){
+        for(int i=0;i!=15;i++)
+            name[i]=n[i];
+    }
+    void print()const{
+        //feet=8; //error assignment of member 'animal::feet' in read-only object
+        cout<<"[ Species : "<<species<<" | ";
+        cout<<"Feet : "<<feet<<" | ";
+        cout<<"Hands : "<<hands<<" | ";
+        cout<<"Name : "<<name<<" ]"<<endl;
+    }
+};
+int main(){
+    const animal hum("Homo sapien",'2','2');
+    //hum.setName("Gopal"); //gives error " passing 'const animal' as 'this' argument discards qualifiers ..."
+    hum.print();cout<<endl;
+    animal ram(hum);
+    ram.print();cout<<endl;
+    ram.setName("Ram");
+    ram.print();
+return 0;
+}
+
+Ans10:
+#include<iostream>
+using namespace std;
+class ntc{
+public:
+    ntc(char* v):id(Size++){
+        //ntc::Size=1;
+        //cout<<"Constructor Size="<<Size;
+        for(int i=0;i!=10;i++)
+            val[i]=v[i];
+    }
+    static void showSize(){
+        cout<<"ntc has "<<ntc::Size<<((Size>1)?(" sims that are operational."):(" sim that is operational"));
+    }
+private:
+    const int id;
+    char val[10];
+    static int Size;
+};
+int ntc::Size=0;
+int main(){
+//    int ntc::Size=0;
+    ntc I("9866471976");
+    ntc::showSize();
+
+    //N9841829080.Size();
+return 0;
+}

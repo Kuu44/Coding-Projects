@@ -1,0 +1,122 @@
+﻿  pch.cpp
+  Calculator.cpp
+  CalculatroTutorial.cpp
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(43): error C2632: 'char' followed by 'wchar_t' is illegal
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(43): warning C4091: 'typedef ': ignored on left of 'char' when no variable is declared
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(48): error C2059: syntax error: '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): error C2143: syntax error: missing ')' before '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): error C2065: '__fcmp': undeclared identifier
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): error C2206: 'qsort': typedef cannot be used for function definition
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): error C2143: syntax error: missing ';' before '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): error C2059: syntax error: 'const'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(92): error C2059: syntax error: ')'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(115): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(116): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(127): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(129): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(130): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(131): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(132): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(133): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(135): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(136): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): error C2143: syntax error: missing ')' before '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): error C2065: '__fcmp': undeclared identifier
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): error C2206: 'lfind': typedef cannot be used for function definition
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): error C2143: syntax error: missing ';' before '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): error C2059: syntax error: 'const'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(178): error C2059: syntax error: ')'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): error C2143: syntax error: missing ')' before '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): error C2065: '__fcmp': undeclared identifier
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): error C2206: 'lsearch': typedef cannot be used for function definition
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): error C2143: syntax error: missing ';' before '('
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): error C2059: syntax error: 'const'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\stdlib.h(185): error C2059: syntax error: ')'
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\math.h(17): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\auxiliary\vs\include\math.h(19): warning C4229: anachronism used: modifiers on data are ignored
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(26): error C2039: 'fabsf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(26): error C3861: 'fabsf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(42): error C2039: 'qsort': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(42): error C2873: 'qsort': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(47): error C2039: 'lldiv_t': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(47): error C2873: 'lldiv_t': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(54): error C2039: 'atoll': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(54): error C2873: 'atoll': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(54): error C2039: 'llabs': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(54): error C2873: 'llabs': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(54): error C2039: 'lldiv': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(54): error C2873: 'lldiv': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(55): error C2039: 'strtof': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(55): error C2873: 'strtof': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(55): error C2039: 'strtold': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(55): error C2873: 'strtold': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(56): error C2039: 'strtoll': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(56): error C2873: 'strtoll': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(56): error C2039: 'strtoull': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(56): error C2873: 'strtoull': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(58): error C2039: '_Exit': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(58): error C2873: '_Exit': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(58): error C2039: 'at_quick_exit': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(58): error C2873: 'at_quick_exit': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(58): error C2039: 'quick_exit': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cstdlib(58): error C2873: 'quick_exit': symbol cannot be used in a using-declaration
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(27): error C2039: 'acosf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(27): error C3861: 'acosf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(32): error C2039: 'acoshf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(32): error C3861: 'acoshf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(37): error C2039: 'asinf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(37): error C3861: 'asinf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(42): error C2039: 'asinhf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(42): error C3861: 'asinhf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(47): error C2039: 'atanf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(47): error C3861: 'atanf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(52): error C2039: 'atanhf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(52): error C3861: 'atanhf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(57): error C2039: 'atan2f': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(57): error C3861: 'atan2f': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(62): error C2039: 'cbrtf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(62): error C3861: 'cbrtf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(67): error C2039: 'ceilf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(67): error C3861: 'ceilf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(73): error C2039: 'copysignf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(73): error C3861: 'copysignf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(78): error C2039: 'cosf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(78): error C3861: 'cosf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(83): error C2039: 'coshf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(83): error C3861: 'coshf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(88): error C2039: 'erff': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(88): error C3861: 'erff': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(93): error C2039: 'erfcf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(93): error C3861: 'erfcf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(98): error C2039: 'expf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(98): error C3861: 'expf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(103): error C2039: 'exp2f': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(103): error C3861: 'exp2f': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(108): error C2039: 'expm1f': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(108): error C3861: 'expm1f': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(113): error C2039: 'fabsf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(113): error C3861: 'fabsf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(118): error C2039: 'fdimf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(118): error C3861: 'fdimf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(123): error C2039: 'floorf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(123): error C3861: 'floorf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(129): error C2039: 'fmaf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(129): error C3861: 'fmaf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(134): error C2039: 'fmaxf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(134): error C3861: 'fmaxf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(139): error C2039: 'fminf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(139): error C3861: 'fminf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(144): error C2039: 'fmodf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(144): error C3861: 'fmodf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(149): error C2039: 'frexpf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(149): error C3861: 'frexpf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(154): error C2039: 'hypotf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(154): error C3861: 'hypotf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(159): error C2039: 'ilogbf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(159): error C3861: 'ilogbf': identifier not found
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(164): error C2039: 'ldexpf': is not a member of '`global namespace''
+c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\cmath(164): fatal error C1003: error count exceeds 100; stopping compilation
+  Generating Code...

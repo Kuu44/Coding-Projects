@@ -1,0 +1,5 @@
+                   SUJIT COMPANY LIMITED
+Sno Particulars         Quantity  Price Sub total 
+1   pen                 2         10    20        
+2   copy                2         20    40        
+total                             60        
