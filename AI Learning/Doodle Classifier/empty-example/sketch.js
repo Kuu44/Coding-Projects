@@ -1,35 +1,33 @@
 const imageSize = 784;
 
-let catData, trainData, rainbowData;
-let catTraining, trainTraining, rainbowTraining;
+let cat, train, rainbow;
 
 function preload() {
-  catData = loadBytes('./data/cat.bin');
-  trainData = loadBytes('./data/train.bin');
-  rainbowData = loadBytes('./data/rainbows.bin');
+  cat=dataDummy(); train=dataDummy(); rainbow=dataDummy();
+  cat._data = loadBytes('./data/cat.bin');
+  train._data = loadBytes('./data/train.bin');
+  rainbow._data = loadBytes('./data/rainbows.bin');
 }
 
 function setup() {
   createCanvas(560, 560);
   background(0);
 
-  catTraining = CreateSubArray(catData);
-  trainTraining = CreateSubArray(trainData);
-  rainbowTraining = CreateSubArray(rainbowData);
+  CreateSubArray(cat);
+  CreateSubArray(train);
+  CreateSubArray(rainbow);
 
-  DrawImage(trainData);
+  DrawImage(rainbow);
 }
 
-const CreateSubArray = (data, amount = 1280) => {
-  let result = [];
-  for (let i = 0; i < amount; i++) {
+const CreateSubArray = (obj) => {
+  for (let i = 0; i < 1600; i++) {
     const offset = i * imageSize;
-    result[i] = data.bytes.subarray(offset, offset + imageSize);
+    if(i<1280) obj.training[i] = obj.data.bytes.subarray(offset, offset + imageSize);
+    else obj.testing[i-1280] = obj.data.bytes.subarray(offset, offset + imageSize);
   }
-  return result;
 }
-
-const DrawImage = function(array) {
+const DrawImage = function(obj) {
   const hNoOfImages = 20;
   const total = hNoOfImages * hNoOfImages;
 
@@ -38,7 +36,7 @@ const DrawImage = function(array) {
     img.loadPixels();
     const offset = n * imageSize;
     for (let i = 0; i < imageSize; i++) {
-      let val = 255 - array.bytes[i + offset];
+      let val = 255 - obj.data.bytes[i + offset];
       img.pixels[i * 4 + 0] = val;
       img.pixels[i * 4 + 1] = val;
       img.pixels[i * 4 + 2] = val;
@@ -48,5 +46,11 @@ const DrawImage = function(array) {
     const x = (n % hNoOfImages) * 28;
     const y = floor(n / hNoOfImages) * 28;
     image(img, x, y);
+  }
+}
+function dataDummy(){
+  return {
+    training:[], testing:[],_data: null,
+    get data(){ return this._data;}
   }
 }
