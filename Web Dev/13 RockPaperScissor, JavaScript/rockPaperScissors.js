@@ -1,8 +1,14 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
+
 const getUserChoice = userInput => {
   userInput.toLowerCase();
   if(userInput==='rock'||userInput==='scissors'||userInput==='paper'||userInput==='bomb'){
       return userInput;
-  }   
+  }
   else{
       return 'Error: Invalid input';
   }
@@ -20,7 +26,7 @@ const getComputerChoice =() =>{
       return 'scissors';
       break;
     default:
-      console.log('Error: Computer Error');      
+      Print('Error: Computer Error');
       break;
   }
 }
@@ -60,12 +66,12 @@ const determineWinner = (userChoice,computerChoice)=>{
 const playgame=()=>{
   const userChoice=getComputerChoice();
   //const userChoice=getUserChoice('rock');
-  console.log('User picks: '+userChoice)
+  Print('User picks: '+userChoice)
 
   const computerChoice=getComputerChoice();
-  console.log('Computer picks: '+computerChoice)
+  Print('Computer picks: '+computerChoice)
 
-  console.log(determineWinner(userChoice,computerChoice));
+  Print(determineWinner(userChoice,computerChoice));
 }
 
 playgame();

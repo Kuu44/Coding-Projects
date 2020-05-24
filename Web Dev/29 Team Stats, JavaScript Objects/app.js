@@ -1,3 +1,8 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
 const team={
   _players: [
     {firstName: 'Bruno',lastName: 'Fernandes', age: 25,},
@@ -28,17 +33,16 @@ const team={
   printPlayers(){
     const players=this.players;
     for(let i=0; i< players.length; i++){
-      console.log(`Name: ${players[i].firstName} ${players[i].lastName}\nAge: ${players[i].age}`)
+      Print(`Name: ${players[i].firstName} ${players[i].lastName}\nAge: ${players[i].age}`)
     };
   },
   printGames(){
     const games=this._games;
     for(let i=0; i< games.length; i++){
-    console.log(`ManUtd: ${games[i].teamPoints} - ${games[i].opponentPoints}: ${games[i].opponent}`);
+    Print(`ManUtd: ${games[i].teamPoints} - ${games[i].opponentPoints}: ${games[i].opponent}`);
     };
   },
 };
-
 team.addPlayer('Jessie','Lingard','25');
 team.addPlayer('David','De Gea','26');
 team.addPlayer('Scott','McTominay','19');

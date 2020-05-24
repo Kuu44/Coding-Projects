@@ -1,3 +1,8 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
 const checkE=(input, arr)=>{
   if(input==='e' || input==='u'){
     arr.push(input);
@@ -14,9 +19,9 @@ for(let i=0; i< input.length; i++){
   for(let j=0;j < vowels.length; j++){
     if(vowels[j]===input[i]){
       resultArray.push(input[i]);
-    }    
+    }
   }
-  checkE(input[i], resultArray);  
+  checkE(input[i], resultArray);
   //console.log(vowels[i]);
 }
-console.log((resultArray.join('')).toUpperCase());
+Print((resultArray.join('')).toUpperCase());

@@ -1,3 +1,8 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
 const menu={
   _courses: {
     appetizers: [],
@@ -33,14 +38,14 @@ const menu={
   },
   getRandomDishFromCourse(courseName){
     const dishes=this[courseName];
-    return dishes[Math.floor(Math.random()*dishes.length)];  
+    return dishes[Math.floor(Math.random()*dishes.length)];
   },
   generateRandomMeal(){
     const appetizer=this.getRandomDishFromCourse('appetizers');
   const main=this.getRandomDishFromCourse('mains');
   const dessert=this.getRandomDishFromCourse('desserts');
   const totalPrice=main.price+appetizer.price+dessert.price;
-  console.log(`Meal:\n\nAppetizer: ${appetizer.name}\nMain Dish: ${main.name}\nDessert: ${dessert.name}\nwith the total price being Rs.${totalPrice}`);
+  Print(`Meal:\n\nAppetizer: ${appetizer.name}\nMain Dish: ${main.name}\nDessert: ${dessert.name}\nwith the total price being Rs.${totalPrice}`);
   },
 };
 menu.addDishToCourse('appetizers','Gai ko Dudh',300);

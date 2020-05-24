@@ -1,3 +1,8 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
 const getSleepHours=function(day){
   switch(day.toLowerCase()){
     case 'sunday':
@@ -63,4 +68,4 @@ const calculateSleepDebt=()=>{
   return message;
 }
 
-console.log(calculateSleepDebt());
+Print(calculateSleepDebt());

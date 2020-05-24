@@ -1,10 +1,16 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
+
 let userName='Kuu';
 
-(userName)?console.log(`Hello ${userName}`):console.log('Hello');
+(userName)?Print(`Hello ${userName}`):Print('Hello');
 
 let userQuestion='R u Don?';
 
-console.log(`${userName}, ${userQuestion}`);
+Print(`${userName}, ${userQuestion}`);
 
 let randomNum=Math.floor(Math.random() *8);
 let eightBall='';
@@ -35,4 +41,4 @@ switch(randomNum) {
     eightBall='Signs point to yes';
     break;
 }
-console.log(`<EightBall Says>: ${eightBall}`);
+Print(`<EightBall Says>: ${eightBall}`);

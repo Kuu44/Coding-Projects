@@ -1,3 +1,8 @@
+const Print=(string)=>{
+  const element=document.createElement('h4');
+  element.innerHTML=string;
+  document.body.appendChild(element);
+};
 const getRandEvent = () => {
   const random = Math.floor(Math.random() * 3);
   if (random === 0) {
@@ -22,11 +27,11 @@ const getTrainingDays = event => {
 };
 
 const logEvent = (name, event) => {
-  console.log(`${name}'s event is: ${event}`);
+  Print(`${name}'s event is: ${event}`);
 };
 
 const logTime = (name, days) => {
-  console.log(`${name}'s time to train is: ${days} days`);
+  Print(`${name}'s time to train is: ${days} days`);
 };
 
 const event = getRandEvent();
