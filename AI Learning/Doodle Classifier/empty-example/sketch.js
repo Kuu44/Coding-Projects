@@ -1,56 +1,90 @@
-const imageSize = 784;
-
-let cat, train, rainbow;
-
 function preload() {
-  cat=dataDummy(); train=dataDummy(); rainbow=dataDummy();
+  cat = dataDummy();
+  train = dataDummy();
+  rainbow = dataDummy();
   cat._data = loadBytes('./data/cat.bin');
   train._data = loadBytes('./data/train.bin');
   rainbow._data = loadBytes('./data/rainbows.bin');
-}
 
+  //Making Neural Network
+  nn = new NeuralNetwork(784, 64, 3);
+  //LoadData
+  data=(loadJSON('NNData.json',createNewNN));
+}
 function setup() {
-  createCanvas(560, 560);
+  createCanvas(280, 280);
   background(0);
 
-  CreateSubArray(cat);
-  CreateSubArray(train);
-  CreateSubArray(rainbow);
-
-  DrawImage(rainbow);
-}
-
-const CreateSubArray = (obj) => {
-  for (let i = 0; i < 1600; i++) {
-    const offset = i * imageSize;
-    if(i<1280) obj.training[i] = obj.data.bytes.subarray(offset, offset + imageSize);
-    else obj.testing[i-1280] = obj.data.bytes.subarray(offset, offset + imageSize);
-  }
-}
-const DrawImage = function(obj) {
-  const hNoOfImages = 20;
-  const total = hNoOfImages * hNoOfImages;
-
-  for (let n = 0; n < total; n++) {
-    let img = createImage(28, 28);
+  trainButton = select('#train');
+  testButton = select('#test');
+  guessButton = select('#guess');
+  clearButton = select('#clears');
+  trainButton.mousePressed(() => {
+    epochCounter++;
+    trainOnce();
+  });
+  testButton.mousePressed(testAll);
+  clearButton.mousePressed(() => {
+    background(0);
+    Print('Draw either a Cat, a Train or a Rainbow!')
+  });
+  guessButton.mousePressed(() => {
+    let inputs = [];
+    let img = get();
+    img.resize(28, 28);
     img.loadPixels();
-    const offset = n * imageSize;
     for (let i = 0; i < imageSize; i++) {
-      let val = 255 - obj.data.bytes[i + offset];
-      img.pixels[i * 4 + 0] = val;
-      img.pixels[i * 4 + 1] = val;
-      img.pixels[i * 4 + 2] = val;
-      img.pixels[i * 4 + 3] = 255;
+      let bright = img.pixels[i * 4];
+      inputs[i] = bright / 255.0;
     }
-    img.updatePixels();
-    const x = (n % hNoOfImages) * 28;
-    const y = floor(n / hNoOfImages) * 28;
-    image(img, x, y);
-  }
+    let guess = nn.predict(inputs);
+    const classification = guess.indexOf(max(guess));
+    console.log(classification);
+    switch (classification) {
+      case CAT:
+        Print("I think it's a Cat!");
+        break;
+      case TRAIN:
+        Print("I think it's a Train!");
+        break;
+      default:
+        Print("I think it's a Rainbow!");
+        break;
+    }
+  });
+
+  //Preparing Data
+  CreateSubArray(cat, CAT);
+  CreateSubArray(train, TRAIN);
+  CreateSubArray(rainbow, RAINBOW);
+
+  training = training.concat(cat.training);
+  training = training.concat(rainbow.training);
+  training = training.concat(train.training);
+
+  testing = testing.concat(cat.testing);
+  testing = testing.concat(train.testing);
+  testing = testing.concat(rainbow.testing);
+
+  //Randomizing
+  shuffle(training, true);
+  console.log("Setup Done");
 }
-function dataDummy(){
-  return {
-    training:[], testing:[],_data: null,
-    get data(){ return this._data;}
+function draw() {
+  if (mouseIsPressed) {
+    strokeWeight(10);
+    stroke(255);
+    line(pmouseX, pmouseY, mouseX, mouseY);
+  }
+  //Training
+  if (trainingMode) {
+    trainNetwork();
+    if (position == training.length) {
+      trainingMode = false;
+      //SaveData
+      save(nn, './NNData.json',true);
+      Print("Training Done! Clear and Draw!");
+      console.log("Epoch: " + epochCounter);
+    }
   }
 }

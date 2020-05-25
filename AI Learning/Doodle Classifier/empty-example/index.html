@@ -2,14 +2,30 @@
 <html>
 
 <head>
-  <script src="./libraries/p5.js"></script>
-  <script src="./libraries/p5.sound.js"></script>
-  <!--<script src="./libraries/p5.sound.min.js"></script>-->
-
-  <script src="./sketch.js"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <h1>Doodle Classifier!</h1>
 </head>
 
 <body>
+  <div class="container">
+    <button id="train">Train</button>
+    <button id="test">Test</button>
+    <button id="guess">Guess</button>
+    <button id="clears">Clear</button>
+  </div>
+  <div class="drawing">
+    <div>
+      <script src="./libraries/p5.js"></script>
+      <script src="./lib/matrix.js"></script>
+      <script src="./lib/nn.js"></script>
+      <script src="./backend.js"></script>
+      <script src="./sketch.js"></script>
+    </div>
+    <article class="Answer" id="answer">
+      Draw either a Cat, a Train or a Rainbow!
+    </article>
+  </div>
+
 </body>
 
 </html>
