@@ -2,11 +2,11 @@
 
 Read Weird Ideas
 
-"So long as I fon't give up, the possibility of winning will never fall to zero"
+"So long as I don't give up, the possibility of winning will never fall to zero"
 
 SitUps n PUps(Alt Diamond/Reg), Crunches, Squats: Started - 17/5/2020
 
-Day 1	-	10,10,25    	W	17/5
+Day 1	-	10,10,25    		W	17/5
 Day 2	-	20,15,30  		W	18/5
 Day 3	-	5,20,35		W	19/5
 Day 4	-	10,25,40		W	20/5
@@ -17,7 +17,7 @@ Day 8	-	30,40,60		W	24/5
 Day 9	-	Rest		W	25/5
 Day 10	-	10,10,25		W	26/5
 Day 11	-	40,50,65		W	27/5
-Day 12	-	45,60,70
+Day 12	-	45,60,70		W	28/5
 Day 13	-	5,5,5
 Day 14	-	10,10,10
 Day 15	-	20,30,20
