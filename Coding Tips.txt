@@ -1,3 +1,5 @@
+Allow Concurrency whenever possible.
+
 Main things to look when writing a function is
 
 a) The function should not exceed 15 lines of code,
@@ -13,3 +15,7 @@ Debugging:
 1. Check that when accessing properties, you dont add " () "
 2. In for loops, check that the stopping condition isnt
  modified in the loop itself
+
+Separation of concerns: means organizing code into distinct sections each 
+handling a specific task. It enables us to quickly navigate our code and 
+know where to look if something isn’t working.
