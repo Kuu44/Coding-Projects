@@ -1,6 +1,6 @@
-Allow Concurrency whenever possible.
-
-Main things to look when writing a function is
+1. Allow Concurrency whenever possible.
+2. if(integer==0) x if(!integer) \/
+3. Main things to look when writing a function is
 
 a) The function should not exceed 15 lines of code,
 b) If a small functionality comes on the middle of the logic, move that functionality to a function so 

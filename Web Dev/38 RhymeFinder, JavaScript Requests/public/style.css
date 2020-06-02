@@ -1,0 +1,101 @@
+header {
+  text-align: center;
+  background-color: #ef6b68;
+  padding: 10px;
+}
+
+main {
+  background-color: #ef6b68;
+  height: 900px;
+  text-align: center;
+}
+
+h1 {
+  height: 38px;
+  font-family: Work Sans, sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  letter-spacing: 0.6px;
+  text-align: center;
+  color: #1f233e;
+  padding-top: 40px;
+  margin: 0;
+}
+
+li {
+  text-align: center;
+  margin: 0 25% 0 25%;
+}
+
+.logo {
+  width: 110px;
+  height: 28px;
+  margin-top: 40px;
+  object-fit: contain;
+}
+
+.container {
+  width: 400px;
+  margin: auto;
+  text-align: center;
+}
+
+#input {
+  width: 219px;
+  height: 37px;
+  border-radius: 3.2px;
+  border: solid 0.8px #1f233e;
+  background-color: inherit;
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+  font-family: Source Sans Pro;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+}
+
+#submit {
+  width: 125px;
+  height: 30px;
+  border-radius: 2px;
+  border-color: inherit;
+  background-color: #1f233e;
+  margin-top: 30px;
+  font-family: Work Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.3px;
+  text-align: center;
+  color: #ef6b68;
+  margin-right: -3px;
+}
+
+#responseField {
+  min-width: 191px;
+  min-height: 120px;
+  background-color: #1f233e;
+  margin: auto;
+  margin-top: 25px;
+  font-family: Source Sans Pro;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  text-align: center;
+  color: #ffffff;
+  overflow-wrap: break-word;
+  padding: 20px;
+}
+
+#submit:hover {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#submit:active {
+  background-color: #ffffff;
+  border-color: #ffffff;
+  color: #ef6b68;
+  cursor: pointer;
+}
