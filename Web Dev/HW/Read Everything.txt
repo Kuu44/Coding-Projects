@@ -1,8 +1,10 @@
 30 Days Challenge
 
-Typing: 19
+Typing: 22
 
 Read Weird Ideas
+
+https://www.youtube.com/watch?v=RqcOCBb4arc
 
 "So long as I don't give up, the possibility of winning will never fall to zero"
 
@@ -34,8 +36,8 @@ Day 22.1-	10,10,10	W	 8/6
 Day 23	-	20,40,55	W	 9/6
 Day 24	-	30,50,65	W	10/6
 Day 25	-	15,60,65	W	11/6
-Day 26	-	30,70,85
-Day 27	-	Rest
+Day 26	-	30,70,85	W	12/6
+Day 27	-	Rest		W	13/6
 Day 28	-	25,80,95
 Day 29	-	30,90,95
 Day 30	-	40,100,100	
