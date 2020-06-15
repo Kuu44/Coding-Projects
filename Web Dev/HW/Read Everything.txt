@@ -1,6 +1,6 @@
 30 Days Challenge
 
-Typing: 22
+Typing: 23
 
 Read Weird Ideas
 
@@ -38,8 +38,8 @@ Day 24	-	30,50,65	W	10/6
 Day 25	-	15,60,65	W	11/6
 Day 26	-	30,70,85	W	12/6
 Day 27	-	Rest		W	13/6
-Day 28	-	25,80,95
-Day 29	-	30,90,95
+Day 28	-	25,80,95	W	14/6
+Day 29	-	30,90,95	W	15/6
 Day 30	-	40,100,100	
 Stay 10 days ahead
 
