@@ -1,4 +1,4 @@
-Typing: 26, L: 20
+Typing: 26, L: 22
 
 Read Weird Ideas
 
@@ -21,7 +21,7 @@ Day 39	-	Rest		L	25/6
 Day 40	-	10,10,25	W	26/6
 Day 41	-	Rest		L	27/6	
 Day 42	-	40,50,65	W	28/6
-Day 43	-	45,60,70
+Day 43	-	45,60,70	W	29/6
 Day 44	-	5 ,5 ,5
 Day 45	-	10,10,10
 Day 46	-	20,30,20

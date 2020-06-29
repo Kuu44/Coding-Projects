@@ -1,0 +1,13 @@
+D:\Docs\Coding_Projects\C#\ChemicalBalance\bin\Debug\netcoreapp3.1\ChemicalBalance.exe
+D:\Docs\Coding_Projects\C#\ChemicalBalance\bin\Debug\netcoreapp3.1\ChemicalBalance.deps.json
+D:\Docs\Coding_Projects\C#\ChemicalBalance\bin\Debug\netcoreapp3.1\ChemicalBalance.runtimeconfig.json
+D:\Docs\Coding_Projects\C#\ChemicalBalance\bin\Debug\netcoreapp3.1\ChemicalBalance.runtimeconfig.dev.json
+D:\Docs\Coding_Projects\C#\ChemicalBalance\bin\Debug\netcoreapp3.1\ChemicalBalance.dll
+D:\Docs\Coding_Projects\C#\ChemicalBalance\bin\Debug\netcoreapp3.1\ChemicalBalance.pdb
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.csprojAssemblyReference.cache
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.csproj.CoreCompileInputs.cache
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.AssemblyInfoInputs.cache
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.AssemblyInfo.cs
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.dll
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.pdb
+D:\Docs\Coding_Projects\C#\ChemicalBalance\obj\Debug\netcoreapp3.1\ChemicalBalance.genruntimeconfig.cache
