@@ -1,0 +1,26 @@
+Question Conversion
+
+Close ended -> Open Ended
+
+Would you like vanilla ice cream? 
+-> What is your favorite flavor of ice cream and why?
+Have you ever met Joe before?
+->How did you meet Joe?
+Where did you go to college?
+->What do you feel was most beneficial about your college experience?
+What is your best quality?
+->How can your top qualities help our company to thrive and grow?
+Are you happy?
+->What are some of the things that bring you the most joy?
+Do you enjoy your car?
+->Why did you decide to purchase a Volvo?
+Does your brother have the same interests as you?
+->What interests do you and your brother share, and which interests do you not share?
+Do you have a pet?
+->Do you have a pet and what is your pet like?
+Do you like animals?
+->Do you like animals and why?
+When is your birthday?
+->When is your birthday and how do you like to celebrate?
+Do you like rain?
+->Do you like rain and what do you usually do during rain storms?
