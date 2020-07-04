@@ -1,4 +1,4 @@
-Typing: 26, L: 26
+Typing: 26, L: 30
 
 Read Weird Ideas
 
@@ -28,9 +28,15 @@ Day 46	-	Rest		L	 2/7
 Day 47	-	20,30,20	W	 3/7
 Day 48	-	25,30,45
 Day 49	-	40,50,60
-Day 50	-	10,10,25	
-Day 51	-	20,15,35
-Day 52	-	20,25,55
+Day 50	-	5 ,5 ,5 
+Day 51	-	10,10,25	
+Day 52	-	20,15,35
+Day 53	-	20,25,55
+Day 54	-	20,40,55
+Day 55	-	30,50,65
+Day 56	-	15,60,65
+Day 57	-	30,70,85
+Day 58	-	Rest	
 
 SitUps n PUps(Alt Diamond/Reg), Crunches, Squats
 
