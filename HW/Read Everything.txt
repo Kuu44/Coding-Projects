@@ -31,12 +31,9 @@ Day 49	-	Rest		W	 5/7
 Day 50	-	5 ,5 ,5 	W	 6/7
 Day 51	-	10,10,25	W	 7/7
 Day 52	-	20,15,35	W	 8/7
-Day 53	-	20,25,55	
-Day 54	-	20,40,55
-Day 55	-	30,50,65
-Day 56	-	15,60,65
-Day 57	-	30,70,85
-Day 58	-	Rest	
+
+Day 53	-	 5, 5, 5	W	18/7
+Day 54	-	10,10,25	W	19/7
 
 SitUps n PUps(Alt Diamond/Reg), Crunches, Squats
 
