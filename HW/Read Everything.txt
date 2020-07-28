@@ -1,9 +1,9 @@
-Typing: 26, L: 42
+Typing: 26, L: 52
 
 Read Weird Ideas
 
 https://www.youtube.com/watch?v=RqcOCBb4arc
-chavezcham.r0.41.9.93@gmail.com
+rydedw.am.att40@gmail.com
 
 "So long as I don't give up, the possibility of winning will never fall to zero"
 
@@ -21,10 +21,10 @@ Day 56	-	10,25,40	W	21/7
 Day 56.2-	Rest		L	22/7
 Day 57	-	 5,10,30	W	23/7
 Day 58	-	15,30,50	W	24/7
-Day 59	-	20,35,55
-Day 60	-	30,40,60
-Day 61	-	Rest	
-Day 62	-	10,10,25
+Day 59	-	20,35,55	W	25/7
+Day 60	-	30,40,60	W	26/7
+Day 61	-	Rest		L	27/7
+Day 62	-	10,10,25	W	28/7
 Day 63	-	40,50,65
 Day 64	-	45,60,70
 Day 65	-	 5, 5, 5
