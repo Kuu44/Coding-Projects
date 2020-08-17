@@ -37,9 +37,9 @@ Day 72	-	Core		S	12/8
 Day 73	-	Lower		W	13/8
 Day 74	-	Core		S	14/8
 Day 75	-	Rest		L	15/8
-Day 76	-	Core	
-Day 77	-	Lower
-Day 78	-	Rest
+Day 76	-	Rest		S	16/8
+Day 77	-	Lower		S	17/8
+Day 78	-	Core
 Day 79	-	Core	
 Day 80	-	Lower
 Day 81	-	Core
