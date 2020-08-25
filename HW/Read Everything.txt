@@ -30,20 +30,13 @@ Mon/Wed/Fri - 6L
 Strength: - L2 - Started 17/5
 Intermediate Strength Training
 
-Day 69	-	Core		W	 9/8
-Day 70	-	Lower		W	10/8	
-Day 71	-	Core		W	11/8
-Day 72	-	Core		S	12/8
-Day 73	-	Lower		W	13/8
-Day 74	-	Core		S	14/8
-Day 75	-	Rest		L	15/8
-Day 76	-	Rest		S	16/8
-Day 77	-	Lower		S	17/8
-Day 78	-	Core
-Day 79	-	Core	
-Day 80	-	Lower
-Day 81	-	Core
-Day 82	-	Rest
+Day 83	-	Core		S	23/8
+Day 84	-	Lower		S	24/8
+Day 85	-	Rest		
+Day 86	-	Core	
+Day 87	-	Lower
+Day 88	-	Core
+Day 89	-	Rest
 
 (After this try Table Biceps)
 
@@ -203,3 +196,17 @@ Day 67	-	20,30,20	W	 3/8
 Day 68	-	25,30,45	W	 4/8
 
 L2:
+Day 69	-	Core		W	 9/8
+Day 70	-	Lower		W	10/8	
+Day 71	-	Core		W	11/8
+Day 72	-	Core		S	12/8
+Day 73	-	Lower		W	13/8
+Day 74	-	Core		S	14/8
+Day 75	-	Rest		L	15/8
+Day 76	-	Rest		S	16/8
+Day 77	-	Lower		S	17/8
+Day 78	-	Core		S	18/8
+Day 79	-	Core		S	19/8
+Day 80	-	Lower		S	20/8
+Day 81	-	Core		S	21/8
+Day 82	-	Rest		L	22/8
