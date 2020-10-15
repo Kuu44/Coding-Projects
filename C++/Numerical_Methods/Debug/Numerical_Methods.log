@@ -1,0 +1,12 @@
+﻿  3.4Factorization.cpp
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(63,21): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(64,22): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(70,21): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(100,14): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(100,32): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(112,14): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(112,32): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(130,11): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(141,11): warning C4018: '<': signed/unsigned mismatch
+D:\Docs\Coding_Projects\C++\Numerical_Methods\3.4Factorization.cpp(143,10): warning C4018: '<': signed/unsigned mismatch
+  Numerical_Methods.vcxproj -> D:\Docs\Coding_Projects\C++\Numerical_Methods\Debug\Numerical_Methods.exe

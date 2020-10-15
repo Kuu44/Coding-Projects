@@ -4,11 +4,7 @@
 
 #pragma region INCLUSIONS
 #include <math.h>
-//#include <stdlib.h>
-//#include <stdarg.h>
 #include <GL/glut.h>
-//#include <stdio.h>
-//#include <conio.h>
 #include <stdbool.h>
 #pragma endregion
 

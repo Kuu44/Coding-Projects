@@ -1,78 +1,78 @@
 ﻿  main.c
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(79,47): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(107,16): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(111,16): warning C4305: 'initializing': truncation from 'double' to 'float'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(185,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(188,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(244,62): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(246,28): warning C4305: '=': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(248,24): warning C4305: '=': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(249,66): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(259,82): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(280,28): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(289,35): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(289,88): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(289,96): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(292,35): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(292,88): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(308,88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(309,88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(310,97): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(312,23): warning C4013: 'maxof' undefined; assuming extern returning int
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(446,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(447,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(451,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(452,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(481,38): warning C4305: '=': truncation from 'double' to 'float'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(524,25): warning C4013: 'time' undefined; assuming extern returning int
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(535,5): warning C4550: expression evaluates to a function which is missing an argument list
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(550,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(551,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(551,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(551,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(560,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(560,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(573,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(577,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(578,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(578,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(578,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(586,28): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(587,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(587,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(610,39): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(613,45): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(619,21): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(627,40): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(630,45): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(636,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(644,40): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(645,54): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(649,32): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(652,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(653,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(653,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(661,39): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(662,55): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(666,33): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(669,28): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(670,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(670,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(678,55): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(682,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(683,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(683,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(683,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(598,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(696,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(769,14): warning C4013: 'sprintf_s' undefined; assuming extern returning int
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(842,52): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1129,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1130,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1159,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1160,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1161,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1167,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(1168,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\main.c(375): warning C4715: 'maxof': not all control paths return a value
-  SkyRunner.vcxproj -> D:\Docs\Coding_Projects\The sky runner!\JackalV\SkyRunner\Debug\SkyRunner.exe
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(75,47): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(103,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(107,16): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(181,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(184,22): warning C4305: 'initializing': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(240,62): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(242,28): warning C4305: '=': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(244,24): warning C4305: '=': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(245,66): warning C4244: '=': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(255,82): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(276,28): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(285,35): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(285,88): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(285,96): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(288,35): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(288,88): warning C4244: 'function': conversion from 'int' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(304,88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(305,88): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(306,97): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(308,23): warning C4013: 'maxof' undefined; assuming extern returning int
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(442,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(443,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(447,41): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(448,42): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(477,38): warning C4305: '=': truncation from 'double' to 'float'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(520,25): warning C4013: 'time' undefined; assuming extern returning int
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(531,5): warning C4550: expression evaluates to a function which is missing an argument list
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(546,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(547,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(547,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(547,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(556,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(556,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(569,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(573,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(574,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(574,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(574,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(582,28): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(583,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(583,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(606,39): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(609,45): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(615,21): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(623,40): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(626,45): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(632,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(640,40): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(641,54): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(645,32): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(648,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(649,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(649,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(657,39): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(658,55): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(662,33): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(665,28): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(666,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(666,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(674,55): warning C4244: 'function': conversion from 'double' to 'GLfloat', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(678,26): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(679,17): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(679,22): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(679,27): warning C4305: 'function': truncation from 'double' to 'GLfloat'
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(594,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(692,1): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(765,14): warning C4013: 'sprintf_s' undefined; assuming extern returning int
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(838,52): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1125,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1126,15): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1155,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1156,46): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1157,45): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1163,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(1164,19): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\main.c(371): warning C4715: 'maxof': not all control paths return a value
+  SkyRunner.vcxproj -> D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\Debug\SkyRunner.exe

@@ -1,0 +1,2 @@
+D:\Docs\Coding_Projects\C\CProgs\HandmadeHero\Debug\HandmadeHero.exe
+D:\Docs\Coding_Projects\C\CProgs\HandmadeHero\Debug\HandmadeHero.pdb

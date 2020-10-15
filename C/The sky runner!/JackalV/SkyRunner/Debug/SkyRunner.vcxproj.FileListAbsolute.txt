@@ -1,0 +1,4 @@
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\Debug\SkyRunner.vcxproj.CopyComplete
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\Debug\SkyRunner.exe
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\Debug\SkyRunner.pdb
+D:\Docs\Coding_Projects\C\The sky runner!\JackalV\SkyRunner\Debug\freeglutd.dll

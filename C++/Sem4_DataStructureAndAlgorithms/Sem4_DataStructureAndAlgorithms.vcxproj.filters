@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Assignment1">
+      <UniqueIdentifier>{046dea2a-672d-47e6-aaa8-290966fbadc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab1">
+      <UniqueIdentifier>{f7c4337d-35e2-431c-9c73-4608f4aa4373}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab2">
+      <UniqueIdentifier>{e6e52ce4-0ab5-426b-b101-84819c6b3c9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab3">
+      <UniqueIdentifier>{219feff4-6690-43c8-980f-b81bc2bac09f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab4">
+      <UniqueIdentifier>{e38c564d-89c5-4b13-92c7-4a0c5cd02949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab5">
+      <UniqueIdentifier>{784a1151-002d-4165-8f11-c8c3485affdc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Lab6">
+      <UniqueIdentifier>{2ed8292d-303c-4238-a27b-9c39b009f7f9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="a1-1.cpp">
+      <Filter>Source Files\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="a1-2.cpp">
+      <Filter>Source Files\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="a1-3.cpp">
+      <Filter>Source Files\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="a1-4.cpp">
+      <Filter>Source Files\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="a1-5.cpp">
+      <Filter>Source Files\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="a1-6.cpp">
+      <Filter>Source Files\Assignment1</Filter>
+    </ClCompile>
+    <ClCompile Include="l1-1.cpp">
+      <Filter>Source Files\Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="l1-2.cpp">
+      <Filter>Source Files\Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="l1-3.cpp">
+      <Filter>Source Files\Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="l1-4.cpp">
+      <Filter>Source Files\Lab1</Filter>
+    </ClCompile>
+    <ClCompile Include="l2-1.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="l2-2.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="l2-3.cpp">
+      <Filter>Source Files\Lab2</Filter>
+    </ClCompile>
+    <ClCompile Include="l3-1.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="l3-2.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="l3-3.cpp">
+      <Filter>Source Files\Lab3</Filter>
+    </ClCompile>
+    <ClCompile Include="l4-1.cpp">
+      <Filter>Source Files\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="l4-2.cpp">
+      <Filter>Source Files\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="l4-3.cpp">
+      <Filter>Source Files\Lab4</Filter>
+    </ClCompile>
+    <ClCompile Include="l5-1.cpp">
+      <Filter>Source Files\Lab5</Filter>
+    </ClCompile>
+    <ClCompile Include="l6-1.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="l6-2.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="l6-3.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+    <ClCompile Include="l6-4.cpp">
+      <Filter>Source Files\Lab6</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

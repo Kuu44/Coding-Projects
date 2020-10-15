@@ -1,0 +1,2 @@
+D:\Docs\Coding_Projects\C++\Numerical_Methods\Debug\Numerical_Methods.exe
+D:\Docs\Coding_Projects\C++\Numerical_Methods\Debug\Numerical_Methods.pdb
