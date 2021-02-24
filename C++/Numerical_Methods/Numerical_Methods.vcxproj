@@ -141,6 +141,23 @@
     <ClCompile Include="3.3GaussJordanInverse.cpp" />
     <ClCompile Include="3.2GaussElimination.cpp" />
     <ClCompile Include="3.4Factorization.cpp" />
+    <ClCompile Include="L01 Bisection.cpp" />
+    <ClCompile Include="L02 NewtonRaphson.cpp" />
+    <ClCompile Include="L03 Secant.cpp" />
+    <ClCompile Include="L04 GaussJordan.cpp" />
+    <ClCompile Include="L05 GaussElimination.cpp" />
+    <ClCompile Include="L06 matrixInverse.cpp" />
+    <ClCompile Include="L07 PowerMethod.cpp" />
+    <ClCompile Include="L08 LagrangeInterpolation.cpp" />
+    <ClCompile Include="L09 CurveFitting(linear).cpp" />
+    <ClCompile Include="L10 CurveFitting(Exp).cpp" />
+    <ClCompile Include="L11 CurveFitting(Poly).cpp" />
+    <ClCompile Include="L12 Trapezoidal.cpp" />
+    <ClCompile Include="L13 Simpson(3by8).cpp" />
+    <ClCompile Include="L14 ODE(Euler).cpp" />
+    <ClCompile Include="L15 ODE(RK2).cpp" />
+    <ClCompile Include="L16 ODE(RK4).cpp" />
+    <ClCompile Include="L17 ODE(RK4-Simul).cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="3.4FactorizationvBell.cpp" />

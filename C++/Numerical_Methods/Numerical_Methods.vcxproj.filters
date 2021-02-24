@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Lab">
+      <UniqueIdentifier>{642b4a77-d5d0-4a46-85c3-d8daefbc8df2}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="3.3GaussJordanInverse.cpp">
@@ -23,6 +26,57 @@
     </ClCompile>
     <ClCompile Include="3.4Factorization.cpp">
       <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="L01 Bisection.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L02 NewtonRaphson.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L03 Secant.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L04 GaussJordan.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L05 GaussElimination.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L06 matrixInverse.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L07 PowerMethod.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L08 LagrangeInterpolation.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L09 CurveFitting(linear).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L10 CurveFitting(Exp).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L11 CurveFitting(Poly).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L12 Trapezoidal.cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L13 Simpson(3by8).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L14 ODE(Euler).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L15 ODE(RK2).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L16 ODE(RK4).cpp">
+      <Filter>Lab</Filter>
+    </ClCompile>
+    <ClCompile Include="L17 ODE(RK4-Simul).cpp">
+      <Filter>Lab</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

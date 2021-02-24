@@ -164,7 +164,7 @@ void FactorisationSolve(Matrix M) {
 	for (int i = 0; i < M.n; i++)
 		cout << setw(10) << "X[" << i << "]=" << M.Y.at(i) << endl;
 }
-int main() {
+int main34() {
 	Matrix K;
 	K.InputOrder();
 	K.InputData();
