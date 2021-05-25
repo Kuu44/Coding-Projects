@@ -1,2 +1,3 @@
 D:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Debug\Sem4_DataStructureAndAlgorithms.exe
 D:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Debug\Sem4_DataStructureAndAlgorithms.pdb
+E:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Debug\Sem4_DataStructureAndAlgorithms.exe

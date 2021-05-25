@@ -18,6 +18,11 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Computer Graphics\Lab\dda.cpp" />
+    <ClCompile Include="Bresengham.cpp" />
+    <ClCompile Include="Sample.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{D578D663-7E1A-4576-BE16-E272996610C4}</ProjectGuid>
@@ -87,10 +92,13 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>E:\Docs\Study\5th Sem\Computer Graphics\Glew and Glut\freeglut\include;E:\Docs\Study\5th Sem\Computer Graphics\Glew and Glut\glew-1.11.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>E:\Docs\Study\5th Sem\Computer Graphics\Glew and Glut\freeglut\lib;E:\Docs\Study\5th Sem\Computer Graphics\Glew and Glut\glew-1.11.0\lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>freeglut.lib;glew32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -137,32 +145,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClCompile Include="a1-1.cpp" />
-    <ClCompile Include="a1-2.cpp" />
-    <ClCompile Include="a1-3.cpp" />
-    <ClCompile Include="a1-4.cpp" />
-    <ClCompile Include="a1-5.cpp" />
-    <ClCompile Include="a1-6.cpp" />
-    <ClCompile Include="l1-1.cpp" />
-    <ClCompile Include="l1-2.cpp" />
-    <ClCompile Include="l1-3.cpp" />
-    <ClCompile Include="l1-4.cpp" />
-    <ClCompile Include="l2-1.cpp" />
-    <ClCompile Include="l2-2.cpp" />
-    <ClCompile Include="l2-3.cpp" />
-    <ClCompile Include="l3-1.cpp" />
-    <ClCompile Include="l3-2.cpp" />
-    <ClCompile Include="l3-3.cpp" />
-    <ClCompile Include="l4-1.cpp" />
-    <ClCompile Include="l4-2.cpp" />
-    <ClCompile Include="l4-3.cpp" />
-    <ClCompile Include="l5-1.cpp" />
-    <ClCompile Include="l6-1.cpp" />
-    <ClCompile Include="l6-2.cpp" />
-    <ClCompile Include="l6-3.cpp" />
-    <ClCompile Include="l6-4.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

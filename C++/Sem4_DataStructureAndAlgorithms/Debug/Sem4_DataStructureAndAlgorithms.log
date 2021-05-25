@@ -1,5 +1,2 @@
-﻿  l6-2.cpp
-  l6-3.cpp
-  l6-4.cpp
-  Generating Code...
-  Sem4_DataStructureAndAlgorithms.vcxproj -> D:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Debug\Sem4_DataStructureAndAlgorithms.exe
+﻿  Bresengham.cpp
+E:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Bresengham.cpp(8): error C4700: uninitialized local variable 'a' used

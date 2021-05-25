@@ -5,9 +5,9 @@
 a) The function should not exceed 15 lines of code,
 b) If a small functionality comes on the middle of the logic, move that functionality to a function so 
 that you can access it for other logics and this will reduce some lines of code with a single line.,
-c) The code should be properly intended, because when some other person who doesn’t have 
+c) The code should be properly indented, because when some other person who doesn’t have 
 prior knowledge of the flow, when he/she looks into the code, the first look should not make them 
-confuse.
+confused.
 d) Proper commenting before the functions, expressions will help other developer to grasp the 
 flow easily.,
 
