@@ -1,2 +1,5 @@
 ﻿  Bresengham.cpp
+E:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Bresengham.cpp(198,10): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Bresengham.cpp(229,9): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\Bresengham.cpp(230,10): warning C4244: 'return': conversion from 'float' to 'int', possible loss of data
   Sem4_DataStructureAndAlgorithms.vcxproj -> E:\Docs\Coding_Projects\C++\Sem4_DataStructureAndAlgorithms\x64\Debug\Sem4_DataStructureAndAlgorithms.exe

@@ -1,4 +1,0 @@
-﻿  main.cpp
-E:\Docs\Coding_Projects\C++\Computer Graphics\Win32\main.cpp(60,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Win32\main.cpp(61,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-  Sem4_DataStructureAndAlgorithms.vcxproj -> E:\Docs\Coding_Projects\C++\Computer Graphics\Win32\Debug\Sem4_DataStructureAndAlgorithms.exe

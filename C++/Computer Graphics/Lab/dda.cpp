@@ -1,4 +1,4 @@
-int a=500;
+//int a=500;
 
 //#include<GL/glut.h>
 //#include<stdlib.h>

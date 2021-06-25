@@ -13,7 +13,7 @@ extern sf::Vector2i FieldCenter;
 class ball {
 public:
 	ball();
-
+    //this function increases the drag by the input value
     void applyDrag(float);
     void draw(RenderWindow*);
     Vector2f getPosInWin();
