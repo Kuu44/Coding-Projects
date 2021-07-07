@@ -23,6 +23,9 @@
     <ClCompile Include="dda.cpp" />
     <ClCompile Include="Transformation.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ourBetterGraphics_eyy_.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <ProjectGuid>{D578D663-7E1A-4576-BE16-E272996610C4}</ProjectGuid>

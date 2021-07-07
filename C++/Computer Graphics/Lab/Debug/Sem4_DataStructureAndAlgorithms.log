@@ -1,37 +1,86 @@
 ﻿  Transformation.cpp
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(61,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(62,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(135,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(152,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(158,60): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(158,60): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(163,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(234,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(235,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(236,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(237,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(238,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(239,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,28): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,31): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,34): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,34): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,39): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,39): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,42): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,42): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,45): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(314,45): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(325,47): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(329,70): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(331,60): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(339,52): warning C4305: 'initializing': truncation from 'double' to 'float'
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(311,14): warning C4101: 'nx2': unreferenced local variable
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(311,19): warning C4101: 'nx3': unreferenced local variable
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(311,29): warning C4101: 'ny2': unreferenced local variable
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(311,34): warning C4101: 'ny3': unreferenced local variable
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(311,9): warning C4101: 'nx1': unreferenced local variable
-E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(311,24): warning C4101: 'ny1': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(91,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(92,8): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(165,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(182,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(188,60): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(188,60): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(193,12): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(264,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(265,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(266,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(267,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(268,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\ourBetterGraphics_eyy_.h(269,10): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(12,28): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(35,22): warning C4018: '<': signed/unsigned mismatch
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(36,27): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(41,22): warning C4018: '<': signed/unsigned mismatch
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(42,23): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(47,53): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(47,39): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(79,21): warning C4018: '<': signed/unsigned mismatch
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(80,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(80,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(80,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(80,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(81,116): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(81,98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(81,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(81,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(117,10): warning C4838: conversion from 'bool' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(118,18): warning C4838: conversion from 'bool' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(119,30): warning C4838: conversion from 'bool' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(148,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(148,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(148,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(148,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(149,82): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(149,64): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(149,46): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(149,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(150,21): warning C4018: '<': signed/unsigned mismatch
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(151,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(151,73): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(151,55): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(151,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(152,116): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(152,98): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(152,80): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(152,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(154,91): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(154,69): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(154,47): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(154,29): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(175,28): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(175,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(176,29): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(176,29): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(177,29): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(177,29): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(223,9): warning C4838: conversion from 'bool' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(224,17): warning C4838: conversion from 'bool' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(225,29): warning C4838: conversion from 'bool' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,25): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,25): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,28): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,28): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,31): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,31): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,36): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,36): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,39): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,39): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,42): warning C4838: conversion from 'int' to 'float' requires a narrowing conversion
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(274,42): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(285,43): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(289,66): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(291,56): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(299,48): warning C4305: 'initializing': truncation from 'double' to 'float'
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(271,11): warning C4101: 'nx2': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(271,16): warning C4101: 'nx3': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(271,26): warning C4101: 'ny2': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(271,31): warning C4101: 'ny3': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(271,6): warning C4101: 'nx1': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Transformation.cpp(271,21): warning C4101: 'ny1': unreferenced local variable
   Sem4_DataStructureAndAlgorithms.vcxproj -> E:\Docs\Coding_Projects\C++\Computer Graphics\Lab\Debug\Sem4_DataStructureAndAlgorithms.exe
