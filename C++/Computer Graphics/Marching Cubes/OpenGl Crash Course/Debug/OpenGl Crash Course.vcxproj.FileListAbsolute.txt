@@ -1,0 +1,3 @@
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Debug\OpenGl Crash Course.vcxproj.CopyComplete
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Debug\OpenGl Crash Course.exe
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Debug\glfw3.dll
