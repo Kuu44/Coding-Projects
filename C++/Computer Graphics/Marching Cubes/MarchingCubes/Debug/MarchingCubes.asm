@@ -4376,6 +4376,7 @@ PUBLIC	??H@YA?AUVec3f@@ABU0@0@Z			; operator+
 PUBLIC	??G@YA?AUVec3f@@ABU0@0@Z			; operator-
 PUBLIC	?Polygonise@@YAHAAUGRIDCELL@@PAUTriMeshFace@@AAHPAUVec3f@@@Z ; Polygonise
 PUBLIC	?VertexInterp@@YA?AUVec3f@@ABU1@0MM@Z		; VertexInterp
+PUBLIC	__real@3dcccccd
 PUBLIC	__xmm@80000000800000008000000080000000
 EXTRN	@_RTC_CheckStackVars@8:PROC
 EXTRN	@__security_check_cookie@4:PROC
@@ -4388,6 +4389,10 @@ EXTRN	__fltused:DWORD
 CONST	SEGMENT
 __xmm@80000000800000008000000080000000 DB 00H, 00H, 00H, 080H, 00H, 00H, 00H
 	DB	080H, 00H, 00H, 00H, 080H, 00H, 00H, 00H, 080H
+CONST	ENDS
+;	COMDAT __real@3dcccccd
+CONST	SEGMENT
+__real@3dcccccd DD 03dcccccdr			; 0.1
 CONST	ENDS
 ;	COMDAT rtc$TMZ
 rtc$TMZ	SEGMENT
@@ -4524,7 +4529,7 @@ _Vertices$ = 20						; size = 4
 ; Line 310
 	mov	DWORD PTR _CubeIndex$[ebp], 0
 ; Line 311
-	xorps	xmm0, xmm0
+	movss	xmm0, DWORD PTR __real@3dcccccd
 	movss	DWORD PTR _threshold$[ebp], xmm0
 ; Line 312
 	mov	eax, 4
@@ -5225,7 +5230,7 @@ $LN1@Polygonise:
 	mov	esp, ebp
 	pop	ebp
 	ret	0
-	npad	2
+	npad	1
 $LN41@Polygonise:
 	DD	3
 	DD	$LN40@Polygonise

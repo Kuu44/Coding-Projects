@@ -308,7 +308,7 @@ int Polygonise(GRIDCELL &Grid, TriMeshFace *Triangles, int &NewVertexCount, Vec3
 	/*Determine the index into the edge table which
 	tells us which vertices are inside of the surface*/
 	CubeIndex = 0;
-	float threshold = 0.0f;
+	float threshold = 0.1f;
 	if (Grid.val[0] < threshold) CubeIndex |= 1;
 	if (Grid.val[1] < threshold) CubeIndex |= 2;
 	if (Grid.val[2] < threshold) CubeIndex |= 4;

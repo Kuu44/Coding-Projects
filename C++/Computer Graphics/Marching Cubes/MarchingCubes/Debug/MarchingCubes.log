@@ -1,2 +1,3 @@
-﻿  IsoSurface.cpp
+﻿  Controller.cpp
+  MarchingCubes.cpp
   MarchingCubes.vcxproj -> E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\MarchingCubes\Debug\MarchingCubes.exe
