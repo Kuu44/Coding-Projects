@@ -1,0 +1,3 @@
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\x64\Debug\OpenGl Crash Course.exe
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\x64\Debug\OpenGl Crash Course.pdb
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\x64\Debug\OpenGl Crash Course.exe

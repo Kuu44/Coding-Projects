@@ -1,0 +1,16 @@
+﻿  GeneratedCube.cpp
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\shader.h(44,40): warning C4101: 'e': unreferenced local variable
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Libraries\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(173,1): fatal error C1189: #error:  "No Target Architecture"
+  main.cpp
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\shader.h(44,40): warning C4101: 'e': unreferenced local variable
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Libraries\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(173,1): fatal error C1189: #error:  "No Target Architecture"
+  MarchingCubes.cpp
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\shader.h(44,40): warning C4101: 'e': unreferenced local variable
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\shared\minwindef.h(130,1): warning C4005: 'APIENTRY': macro redefinition
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Libraries\include\glad\glad.h(32): message : see previous definition of 'APIENTRY'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\winnt.h(173,1): fatal error C1189: #error:  "No Target Architecture"
+  Generating Code...
