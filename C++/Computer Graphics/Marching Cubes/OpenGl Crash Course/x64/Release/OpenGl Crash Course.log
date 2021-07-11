@@ -1,0 +1,20 @@
+﻿  glad.c
+  main.cpp
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\Libraries\include\shader.h(44,40): warning C4101: 'e': unreferenced local variable
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\Libraries\include\mesh.h(81,1): warning C4267: 'argument': conversion from 'size_t' to 'GLsizei', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(96,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(170,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(171,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(175,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(176,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(178,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(179,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\main.cpp(188,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+main.obj : error LNK2001: unresolved external symbol aiGetMaterialTextureCount
+main.obj : error LNK2001: unresolved external symbol "public: char const * __cdecl Assimp::Importer::GetErrorString(void)const " (?GetErrorString@Importer@Assimp@@QEBAPEBDXZ)
+main.obj : error LNK2001: unresolved external symbol "public: struct aiScene const * __cdecl Assimp::Importer::ReadFile(char const *,unsigned int)" (?ReadFile@Importer@Assimp@@QEAAPEBUaiScene@@PEBDI@Z)
+main.obj : error LNK2001: unresolved external symbol "public: __cdecl Assimp::Importer::~Importer(void)" (??1Importer@Assimp@@QEAA@XZ)
+main.obj : error LNK2001: unresolved external symbol "public: __cdecl Assimp::Importer::Importer(void)" (??0Importer@Assimp@@QEAA@XZ)
+main.obj : error LNK2001: unresolved external symbol aiGetMaterialTexture
+D:\Bishad\Creation Center\OpenGL\OpenGl Crash Course\x64\Release\OpenGl Crash Course.exe : fatal error LNK1120: 6 unresolved externals
