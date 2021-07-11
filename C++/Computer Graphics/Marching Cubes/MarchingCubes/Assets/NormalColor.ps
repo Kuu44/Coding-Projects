@@ -1,0 +1,21 @@
+struct VS_OUTPUT
+{
+    float4 Position         : POSITION;   // vertex position
+    float4 TexCoord         : TEXCOORD0;  // vertex interpolation value
+    float3 Normal           : TEXCOORD1;  // vertex normal
+};
+
+struct PS_OUTPUT
+{
+    float4 Color    : COLOR0;
+};
+
+PS_OUTPUT PShaderEntry( VS_OUTPUT input )
+{
+    PS_OUTPUT Output;
+    
+	float3 NormalColor = (normalize(input.Normal) + float3(1.0, 1.0, 1.0)) * 0.5;
+    Output.Color = float4(NormalColor.x, NormalColor.y, NormalColor.z, 1.0);
+    
+    return Output;
+}
