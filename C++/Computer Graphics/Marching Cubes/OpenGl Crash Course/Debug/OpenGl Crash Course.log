@@ -1,0 +1,14 @@
+﻿  GeneratedCube.cpp
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\shader.h(44,40): warning C4101: 'e': unreferenced local variable
+  main.cpp
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\shader.h(44,40): warning C4101: 'e': unreferenced local variable
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(175,28): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(275,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(276,17): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(280,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(281,19): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(283,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(284,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\main.cpp(293,31): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  OpenGl Crash Course.vcxproj -> E:\Docs\Coding_Projects\C++\Computer Graphics\Marching Cubes\OpenGl Crash Course\Debug\OpenGl Crash Course.exe
